@@ -1,0 +1,43 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header" role="img" aria-label="picture of cheese burger.">
+            <h1 class="page-title smythe-regular">Jimmy's Dinner</h1>
+            <p class="page-subtitle smythe-regular">The best burgers and pizzas in town.</p>
+        </header>
+        <section class="menu" id="menu">
+        </section>
+        <section class="order-complete smythe-regular hide">
+            <p>Thanks, James! Your order is on its way!</p>
+        </section>
+        <section class="cart smythe-regular show" id="cart">
+            <p class="cart-title">Your Order</p>
+            <span id="cart-items"></span>
+            
+            <div class="hr"></div>
+            <section class="total">
+                <span class="total-info">
+                    <p class="total-title">Total Price:</p>
+                    <p class="total-price" id="total-price">$0</p>
+                </span>
+                <button type="button" data-id="submit" class="place-order">Complete order</button>
+            </setion>
+        </section>
+        <form class="payment hide">
+            <p class="payment-title">Enter card details</p>
+            <div class="form-inputs">
+                <input name="name" type="text" required class="form-input" placeholder="Enter your name" />
+                <input name="creditCard" type="number" required="true" class="form-input" placeholder="Enter your card number" />
+                <input name="cvv" type="number" required class="form-input" placeholder="Enter CVV" />
+            </div>
+            <button type="submit" class="pay-button" data-order="true">Pay</button>
+        </form>
+	    <script type="module" src="index.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,266 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    background-image: url("images/bg_img.png");
+    background-size: cover;
+    margin: 0px auto 67px auto;
+    padding: 10px 20px;
+    width: 600px;
+    height: 167px;
+}
+
+.smythe-regular {
+  font-family: "Smythe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.page-title {
+    color: #fff;
+    margin: 46px auto 5px 46px;
+    padding: 0;
+    font-size: 39px;
+}
+
+.page-subtitle {
+    color: #fff;
+    margin: 0 auto auto 46px;
+    padding: 0;
+    font-size: 22.5px;
+}
+
+.menu {
+    margin: 0px auto 0px auto;
+}
+
+.menu-title {
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.menu-item {
+    display: flex;
+    border-bottom: 1px solid #8B8B8B;
+    min-width: 508px;
+    min-height: 140px;
+    margin-bottom: 45px;
+}
+
+.menu-img {
+    width: 70px;
+    height: 89px;
+
+}
+
+.menu-info {   
+    margin: 0px auto 8px 31px;
+}
+
+.topings {
+    margin: 0px;
+    color: #8B8B8B;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.price {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.add-to-cart {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DEDEDE;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.plus {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: #3C3C3C;
+}
+
+.cart {
+    width: 508px;
+    height: 319px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-items {
+    margin: 0;
+    padding: 0;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.cart-item {
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 18px;
+    
+}
+
+.cart-title {
+    font-size: 28px;
+    margin: 0px auto 62px auto;
+}
+
+
+.cart-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item-info-name {
+    margin-right: 13px;
+    font-size: 28px;
+}
+
+.remove {
+    color: #BBBBBB;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hr {
+    margin: 31px auto 14px auto;
+    min-height: 2px;
+    background-color: #393333;
+    width: 504px;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.total-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 53px;
+}
+
+.total-title {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.total-price {
+    font-size: 20px;
+    margin: 0;
+}
+
+button {
+    height: 60px;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 3px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.payment {
+    width: 524px;
+    height: 543px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 1px #757575;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment-title {
+    font-size: 24px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 47px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    border: 1.5px solid #757575;
+    padding: 18px 0px 18px 26px;
+    margin-bottom: 23px;
+    width: 460px;
+    border-radius: 4px;
+}
+
+.pay-button {
+    width: 476px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-complete {
+    margin: auto auto 30px auto;
+    font-size: 32px;
+    background-color: #ECFDF5;
+    width: 504px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30x;
+}
+
+.order-complete p {
+    color: 065F46;
+}
+
+.error {
+    font-size: 16px;
+    margin: 0;
+    font-family: Verdana;
+    color: red;
+    margin-right: auto;
+    margin-left: 20px;
+}
